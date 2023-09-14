@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="sphere_white.png" />
-    <title>QGIS Plugin demo</title> 
+    <title>QGIS Plugin demo</title>
 </head>
-<body style="background-image: url('bg.jpg'); background-size: cover; font-family: Kanit, sans-serif; text-align: center;">
-    <h1 id="title" style="margin-top: 10%; font-size: 3rem; color: white; text-shadow: 1px 1px 2px rgb(39, 37, 37);">เลือก plugin ที่ต้องการทดลองใช้งาน</h1>
+
+<body
+    style="background-image: url('bg.jpg'); background-size: cover; font-family: Kanit, sans-serif; text-align: center;">
+    <h1 id="title" style="margin-top: 10%; font-size: 3rem; color: white; text-shadow: 1px 1px 2px rgb(39, 37, 37);">
+        เลือก plugin ที่ต้องการทดลองใช้งาน</h1>
     <div id="select">
-        <div id="main-btn">
-            <img src="plugin_basemap.png" alt="GISTDA sphere basemap" style="width: 60%; height: auto; margin-top: 10%;">
-            <br />
-            <b id="txt" style="font-size: 2rem; color: rgb(59, 53, 53);">basemap</b>
-        </div>
-        <div id="main-btn">
-            <img src="plugin_api.png" alt="GISTDA sphere open data" style="width: 60%; height: auto; margin-top: 10%;">
-            <br />
-            <b id="txt" style="font-size: 2rem; color: rgb(59, 53, 53);">opan data</b>
-        </div>
+        <a href="basemap.html">
+            <div id="main-btn">
+                <img src="plugin_basemap.png" alt="GISTDA sphere basemap"
+                    style="width: 60%; height: auto; margin-top: 10%;">
+                <br />
+                <b id="txt" style="font-size: 2rem; color: rgb(59, 53, 53);">basemap</b>
+            </div>
+        </a>
+        <a href="open-data.html">
+            <div id="main-btn">
+                <img src="plugin_api.png" alt="GISTDA sphere open data"
+                    style="width: 60%; height: auto; margin-top: 10%;">
+                <br />
+                <b id="txt" style="font-size: 2rem; color: rgb(59, 53, 53);">opan data</b>
+            </div>
+        </a>
     </div>
 </body>
+
 </html>
