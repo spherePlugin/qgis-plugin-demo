@@ -19,6 +19,11 @@
     background-color: rgb(247, 232, 180);
 }
 
+a {
+    text-decoration: none;
+    margin-inline: 3%; 
+}
+
 @media only screen and (max-width: 900px) {
     body {
         background-repeat: no-repeat !important;
